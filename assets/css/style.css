@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555555;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -553,6 +553,29 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+ /* added by pg36 .about */
+.aboutus{
+  text-align: center;
+  position: relative;
+  left: 330px;
+  font-size: 18px;
+}
+
+.welcome{
+  position: relative;
+  left: 490px;
+  font-size: 26px;
+}
+
+.profile{
+  text-align: center;
+  position: relative;
+  left: 330px;
+  font-size: 18px;
+}
+
+
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -691,14 +714,14 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 50px;
   position: relative;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .services .icon-box::before {
@@ -877,21 +900,21 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
-  margin: 30px 15px;
-  min-height: 200px;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px;
+  min-height: 150px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+/*.testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10px;
   border: 6px solid #fff;
   position: absolute;
   left: -45px;
-}
+}*/
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
