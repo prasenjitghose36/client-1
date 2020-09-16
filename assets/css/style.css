@@ -6,10 +6,22 @@ Github - https://github.io/prasenjitghose36
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/roboto/Roboto-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Fairplay;
+  src: url('../fonts/fairplay/PlayfairDisplay-Bold.ttf'); 
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+
   color: #444444;
 }
+
+
 
 a {
   color: #3498db;
@@ -21,10 +33,17 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+.heading {
+  font-family: Fairplay;
 }
 
+.write {
+  font-family: Roboto;
+}
+
+.welcome{
+  font-size: 25px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -115,12 +134,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: Roboto;
 }
 
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
+  font-family: Roboto;
 }
 
 .nav-menu a {
@@ -130,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 17px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -478,6 +499,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-family: Fairplay;
 }
 
 .section-title h2 {
@@ -553,15 +575,15 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
- /* added by pg36 .about */
+ /* added by pg36 .about 
 .aboutus{
   text-align: center;
   position: relative;
   left: 330px;
   font-size: 18px;
 }
-
-.welcome{
+*/
+/*.welcome{
   position: relative;
   left: 490px;
   font-size: 26px;
@@ -572,7 +594,7 @@ section {
   position: relative;
   left: 330px;
   font-size: 18px;
-}
+}*/
 
 
 
@@ -586,14 +608,14 @@ section {
   padding: 0;
 }
 
-.about .content ul li {
+/*.about .content ul li {
   padding-left: 28px;
   position: relative;
-}
+}*/
 
-.about .content ul li + li {
+/*.about .content ul li + li {
   margin-top: 10px;
-}
+}*/
 
 .about .content ul i {
   position: absolute;
@@ -1623,3 +1645,4 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
